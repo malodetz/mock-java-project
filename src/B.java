@@ -9,7 +9,7 @@ public class B {
     }
 
     int ThirdMethod(int a) {
-        A x = new A;
-        return SecondMethod(a, 2 * a);
+        A x = new A();
+        return x.SecondMethod(a, 2 * a);
     }
 }
