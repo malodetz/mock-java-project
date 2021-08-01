@@ -5,5 +5,8 @@ public class A {
             System.out.println(i);
         }
     }
-    
+
+    void SecondMethod(int x, y){
+        System.out.println(x*y-x-y);
+    }
 }
