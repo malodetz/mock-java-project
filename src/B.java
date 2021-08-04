@@ -12,4 +12,8 @@ public class B {
         A x = new A();
         return x.SecondMethod(a, 2 * a);
     }
+
+    int updatedFourtMethod(int a, int b, char c) {
+        return a - b + c;
+    }
 }
