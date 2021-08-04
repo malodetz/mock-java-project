@@ -13,10 +13,6 @@ public class B {
         return x.SecondMethod(a, 2 * a);
     }
 
-    boolean FifthMethod(int a, int b) {
-        return a == b;
-    }
-
     int updatedFourtMethod(int a, int b, char c) {
         return a - b + c;
     }
